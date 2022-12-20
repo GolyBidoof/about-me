@@ -83,6 +83,18 @@ const MenuPositions = [
     url: "https://github.com/GolyBidoof",
   },
   {
+    name: "WaniKani",
+    url: "https://community.wanikani.com/u/golybidoof",
+  },
+  {
+    name: "Duolingo",
+    url: "https://www.duolingo.com/profile/GolyBidoof",
+  },
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@GolyBidoof",
+  },
+  {
     name: "Medium",
     url: "https://medium.com/@amelachs0",
   },
