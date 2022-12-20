@@ -63,6 +63,10 @@ const drawMenuPosition = (ctx, menuText, menuPosition) => {
 
 const MenuPositions = [
   {
+    name: "Tumblr",
+    url: "https://golybidoof.tumblr.com/",
+  },
+  {
     name: "Twitter (GolyBidoof)",
     url: "https://twitter.com/GolyBidoof",
   },
@@ -76,7 +80,7 @@ const MenuPositions = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/szymbar15",
+    url: "https://github.com/GolyBidoof",
   },
   {
     name: "Medium",
@@ -84,8 +88,8 @@ const MenuPositions = [
   },
   {
     name: "Steam",
-    url: "https://steamcommunity.com/id/szymbar15/",
-  },
+    url: "https://steamcommunity.com/id/golybidoof/",
+  }
 ];
 
 const handleClick = () => {
