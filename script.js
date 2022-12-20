@@ -42,8 +42,8 @@ const drawMenuPosition = (ctx, menuText, menuPosition) => {
 
   if (
     currentHoverX < 300 &&
-    currentHoverY > 135 + (menuPosition - 1) * 25 &&
-    currentHoverY < 135 + menuPosition * 25
+    currentHoverY > 138 + (menuPosition - 1) * 25 &&
+    currentHoverY < 138 + menuPosition * 25
   ) {
     if (cursorFadeInId !== menuPosition) {
       cursorFadeInCounter = 0;
@@ -107,11 +107,11 @@ const MenuPositions = [
 const handleClick = () => {
   if (
     currentHoverX < 300 &&
-    currentHoverY > 110 &&
-    currentHoverY < 110 + 25 * MenuPositions.length
+    currentHoverY > 113 &&
+    currentHoverY < 113 + 25 * MenuPositions.length
   ) {
     for (i = 0; i < MenuPositions.length; i++) {
-      if (currentHoverY > 110 + i * 25 && currentHoverY < 110 + (i + 1) * 25)
+      if (currentHoverY > 113 + i * 25 && currentHoverY < 113 + (i + 1) * 25)
         window.open(MenuPositions[i].url, "_blank").focus();
     }
   }
@@ -262,6 +262,7 @@ const drawCanvas = (currentDelta) => {
     ctx.fillText(PlaceNames[backgroundImageId], 1280 - 20, 60);
 
     ctx.font = "25px Jura";
+    ctx.lineWidth = 3;
     ctx.strokeText("GolyBidoof#8143", 1280 - 20, 720 - 72 - 80);
     ctx.fillText("GolyBidoof#8143", 1280 - 20, 720 - 72 - 80);
 
